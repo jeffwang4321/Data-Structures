@@ -166,7 +166,7 @@ bool Queue<ElementType>::dequeue() {
 			head = head->next;
             p->next = NULL;
 			delete p; //currently assigned head
-            p = NULL
+            p = NULL;
 			elementCount--;
 			result = true;
 	    }
